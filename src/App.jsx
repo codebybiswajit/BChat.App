@@ -21,7 +21,7 @@ function App() {
       <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col transition-colors duration-300">
         <header className="bg-indigo-600 dark:bg-gray-800 text-white p-4 shadow-md flex justify-between items-center h-16 transition-colors duration-300 border-b border-transparent dark:border-gray-700">
           <div className="flex items-center gap-2">
-            <img src="/logo192.png" alt="BChat Logo" className="w-8 h-8 object-contain" />
+            <img src="/logo192.png" alt="BChat Logo" className="w-8 h-8 object-contain rounded-full" />
             <h1 className="text-2xl font-bold tracking-wider">BChat</h1>
           </div>
           {user && (
