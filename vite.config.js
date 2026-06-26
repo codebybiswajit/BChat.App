@@ -8,6 +8,6 @@ export default defineConfig({
     global: 'window',
   },
   preview:{
-    allowedHosts : app-codebybiswajit-bchat.onrender.com
+    allowedHosts : ['app-codebybiswajit-bchat.onrender.com']
   }
 })
